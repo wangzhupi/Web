@@ -1,3 +1,31 @@
 p{
     color: red;
+    width: 500px;
+    border: 1px solid black;
+}
+
+/* 对应<l>这里的区域 可以理解为作用域 */
+li,
+ol
+{
+    color: aqua;
+}
+
+html{
+    font-size: 20px;
+    font-family: "Open Sans";
+    background-color: white;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #00539f;
+    text-shadow: 3px 3px 1px black;
+}
+
+
+img {
+    display: block;
+    margin: 0 auto;
 }
